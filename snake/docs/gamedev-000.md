@@ -82,7 +82,15 @@ I think all that remians is to smash out the game logic in gdscript.
 
 
 Summary of things learned today:  
--  
+- I learned how to make basic textures on Krita  
+- I learned about CanvasItem and that it masks all other nodes (or something)  
+- I tend to prematurely optimize alot. Maybe from a fear of failure? or wanting to maximize?
+- An effective strategy for me might just be the one thing that works and then optimize AFTER and only only next iterations
+> Optimize only on successive iterations.
 
 List of items to focus on tomorrow:  
--  
+- Getting my hands dirty with GDscript.
+- Getting movement of snake head
+- connecting body to head
+- free.queue on apple when on collision with snake head
+- if delete, append body to snake
