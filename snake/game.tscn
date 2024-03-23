@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://bg0elji7c3ey3"]
+
+[ext_resource type="PackedScene" uid="uid://c4b1kauswsvx" path="res://background.tscn" id="1_k4rq8"]
+[ext_resource type="PackedScene" uid="uid://b47e08io1ui1c" path="res://apple.tscn" id="2_8p2hx"]
+[ext_resource type="PackedScene" uid="uid://bb2qmr5c4db27" path="res://snake-body.tscn" id="3_ar3po"]
+[ext_resource type="PackedScene" uid="uid://euf8pa44hx7j" path="res://snake_head.tscn" id="4_te55q"]
+
+[node name="game" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource("1_k4rq8")]
+position = Vector2(1, 1)
+
+[node name="Apple" parent="." instance=ExtResource("2_8p2hx")]
+position = Vector2(379, 307)
+
+[node name="Snake Head" parent="." instance=ExtResource("3_ar3po")]
+position = Vector2(238, 322)
+
+[node name="Snake Body" parent="." instance=ExtResource("4_te55q")]
+position = Vector2(178, 321)

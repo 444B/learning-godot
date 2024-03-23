@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bb2qmr5c4db27"]
+
+[ext_resource type="Texture2D" uid="uid://6r2itnimstrp" path="res://assets/snake-head.png" id="1_na60e"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7qw1u"]
+radius = 13.0
+height = 65.8674
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Snake-head" type="Sprite2D" parent="."]
+position = Vector2(1, 0)
+texture = ExtResource("1_na60e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -3.8147e-06)
+rotation = -1.56682
+shape = SubResource("CapsuleShape2D_7qw1u")
