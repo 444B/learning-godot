@@ -65,7 +65,7 @@ Especially since I dont know what its gonna be like in size when it gets importe
 Ok, let me make the simplest thing I can for now.
 A Dark rectangle.
 
-Ok, going to import but now I need to choose an expor format. I know that PNG is lossless
+Ok, going to import but now I need to choose an export format. I know that PNG is lossless
 but I wonder what Godot reccomends. 
 Found some [documentation](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_images.html)
 ok, lets do PNG.
@@ -86,7 +86,7 @@ Summary of things learned today:
 - I learned about CanvasItem and that it masks all other nodes (or something)  
 - I tend to prematurely optimize alot. Maybe from a fear of failure? or wanting to maximize?
 - An effective strategy for me might just be the one thing that works and then optimize AFTER and only only next iterations
-> Optimize only on successive iterations.
+- Optimize only on successive iterations.
 
 List of items to focus on tomorrow:  
 - Getting my hands dirty with GDscript.
