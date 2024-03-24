@@ -28,6 +28,10 @@ to focus on today:
 
 Lets get started!
 ---
+Ok, I have made some progress!
+My snake head can now detect touching either its own body or the apple
+It will also increment the number of apples eaten
+[screenshot](../assets/2.png)
 
 ---
 Summary of things learned today:  

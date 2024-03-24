@@ -11,10 +11,10 @@
 position = Vector2(1, 1)
 
 [node name="Apple" parent="." instance=ExtResource("2_8p2hx")]
-position = Vector2(379, 307)
+position = Vector2(549, 323)
 
-[node name="Snake Head" parent="." instance=ExtResource("3_ar3po")]
-position = Vector2(238, 322)
+[node name="Snake Body" parent="." instance=ExtResource("3_ar3po")]
+position = Vector2(254, 306)
 
-[node name="Snake Body" parent="." instance=ExtResource("4_te55q")]
-position = Vector2(178, 321)
+[node name="Snake Head" parent="." instance=ExtResource("4_te55q")]
+position = Vector2(383, 331)

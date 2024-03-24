@@ -1,18 +1,18 @@
 [gd_scene load_steps=3 format=3 uid="uid://bb2qmr5c4db27"]
 
-[ext_resource type="Texture2D" uid="uid://6r2itnimstrp" path="res://assets/snake-head.png" id="1_na60e"]
+[ext_resource type="Texture2D" uid="uid://dqlcqrpyhxwxg" path="res://assets/snake-body.png" id="1_ooaoy"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7qw1u"]
 radius = 13.0
 height = 65.8674
 
-[node name="Area2D" type="Area2D"]
+[node name="snake-body-area2d" type="Area2D" groups=["snake-body-group"]]
 
-[node name="Snake-head" type="Sprite2D" parent="."]
+[node name="snake-body-sprite" type="Sprite2D" parent="."]
 position = Vector2(1, 0)
-texture = ExtResource("1_na60e")
+texture = ExtResource("1_ooaoy")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="snake-body-collision" type="CollisionShape2D" parent="."]
 visible = false
 position = Vector2(-1, -3.8147e-06)
 rotation = -1.56682

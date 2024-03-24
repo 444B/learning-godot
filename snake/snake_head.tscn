@@ -1,19 +1,23 @@
-[gd_scene load_steps=3 format=3 uid="uid://euf8pa44hx7j"]
+[gd_scene load_steps=4 format=3 uid="uid://euf8pa44hx7j"]
 
-[ext_resource type="Texture2D" uid="uid://dqlcqrpyhxwxg" path="res://assets/snake-body.png" id="1_mlcml"]
+[ext_resource type="Script" path="res://snake-head.gd" id="1_kdwh1"]
+[ext_resource type="Texture2D" uid="uid://6r2itnimstrp" path="res://assets/snake-head.png" id="2_0h0ch"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7qw1u"]
 radius = 13.0
 height = 65.8674
 
-[node name="Area2D" type="Area2D"]
+[node name="snake-head-area2d" type="Area2D"]
+script = ExtResource("1_kdwh1")
 
-[node name="Snake-head" type="Sprite2D" parent="."]
+[node name="snake-head-spite" type="Sprite2D" parent="."]
 position = Vector2(1, 0)
-texture = ExtResource("1_mlcml")
+texture = ExtResource("2_0h0ch")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="snake-head-collision" type="CollisionShape2D" parent="."]
 visible = false
 position = Vector2(0, 2)
 rotation = -1.56682
 shape = SubResource("CapsuleShape2D_7qw1u")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
