@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://bg0elji7c3ey3"]
+[gd_scene load_steps=7 format=3 uid="uid://bg0elji7c3ey3"]
 
 [ext_resource type="PackedScene" uid="uid://c4b1kauswsvx" path="res://background.tscn" id="1_k4rq8"]
 [ext_resource type="PackedScene" uid="uid://b47e08io1ui1c" path="res://apple.tscn" id="2_8p2hx"]
+[ext_resource type="Script" path="res://apple.gd" id="3_07rxy"]
 [ext_resource type="PackedScene" uid="uid://bb2qmr5c4db27" path="res://snake-body.tscn" id="3_ar3po"]
 [ext_resource type="PackedScene" uid="uid://euf8pa44hx7j" path="res://snake_head.tscn" id="4_te55q"]
 [ext_resource type="PackedScene" uid="uid://bgoc6h3rpfetb" path="res://random_item_placer.tscn" id="5_cveiw"]
@@ -13,11 +14,12 @@ position = Vector2(1, 1)
 
 [node name="Apple" parent="." instance=ExtResource("2_8p2hx")]
 position = Vector2(549, 323)
+script = ExtResource("3_07rxy")
 
-[node name="Snake Body" parent="." instance=ExtResource("3_ar3po")]
+[node name="Snake Body" parent="." groups=["snake"] instance=ExtResource("3_ar3po")]
 position = Vector2(254, 306)
 
-[node name="Snake Head" parent="." instance=ExtResource("4_te55q")]
+[node name="Snake Head" parent="." groups=["snake", "snake-head"] instance=ExtResource("4_te55q")]
 position = Vector2(383, 331)
 
 [node name="Random Item Placer" parent="." instance=ExtResource("5_cveiw")]

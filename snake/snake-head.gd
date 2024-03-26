@@ -1,6 +1,7 @@
 extends Area2D
 
 signal hit
+signal eat
 
 var screen_size
 var apples_eaten: int = 0
@@ -38,6 +39,8 @@ func _on_area_entered(area: Area2D) -> void:
 		
 		
 	elif area.is_in_group("snake-body-group"):
-		hide()
+		eat.emit()
+		#hide()
+		#queue_free()
 		print("game over")
 
