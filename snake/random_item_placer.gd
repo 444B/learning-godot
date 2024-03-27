@@ -4,7 +4,6 @@ var item_scenes := [
 	preload("apple.tscn")
 ]
 
-
 func _ready() -> void:
 	get_node("Timer").timeout.connect(_on_timer_timeout)
 

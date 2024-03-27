@@ -5,6 +5,7 @@ signal eat
 
 var screen_size
 var apples_eaten: int = 0
+var body_size: int = 1
 @export var speed: float = 400.0
 
 
@@ -34,7 +35,9 @@ func _on_area_entered(area: Area2D) -> void:
 	hit.emit()
 	if area.is_in_group("apple-group"):
 		apples_eaten += 1
+		body_size +=1
 		print("apples eaten:" + str(apples_eaten))
+		print("body size:" + str(body_size))
 
 		
 		
