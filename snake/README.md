@@ -32,9 +32,9 @@ Table of daily posts and raw documentation of process.
 | ------------- | ------------- | ------------- | 
 | Day 0  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-000.md)  |✅|
 | Day 1  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-001.md)  |✅|
-| Day 2  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-002.md)  |❌|
-| Day 3  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-003.md)  |❌|
-| Day 4  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-004.md)  |❌|
+| Day 2  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-002.md)  |✅|
+| Day 3  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-003.md)  |✅|
+| Day 4  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-004.md)  |✅|
 | Day 5  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-005.md)  |❌|
 | Day 6  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-006.md)  |❌|
 | Day 7  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-007.md)  |❌|
