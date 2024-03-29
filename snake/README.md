@@ -28,6 +28,9 @@ Wish me luck!
 
 Table of daily posts and raw documentation of process.  
 
+UPDATE:  
+Lots going in in actual life, will resume project in the morning  
+
 | Day  | Link | Written |
 | ------------- | ------------- | ------------- | 
 | Day 0  | [link](https://github.com/444B/learning-godot/tree/main/snake/docs/gamedev-000.md)  |✅|
